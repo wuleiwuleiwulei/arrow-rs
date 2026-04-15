@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q10 noperf测试开始: 2026-04-15 10:18:23 ===
+运行轮次: 4/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 10  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results10.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 8.521853259997442 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 10 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results10.csv':
+
+         94,386.27 msec task-clock                       #   10.340 CPUs utilized             
+         94,369.38 msec cpu-clock                        #   10.338 CPUs utilized             
+            16,315      context-switches                 #  172.854 /sec                      
+             2,774      cpu-migrations                   #   29.390 /sec                      
+           789,072      page-faults                      #    8.360 K/sec                     
+           789,072      minor-faults                     #    8.360 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       9.127994850 seconds time elapsed
+
+      88.365702000 seconds user
+       5.628870000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q10 noperf测试结束: 2026-04-15 10:18:32 ===
+运行时长: 9秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results10.csv
+CSV文件大小: 568 字节

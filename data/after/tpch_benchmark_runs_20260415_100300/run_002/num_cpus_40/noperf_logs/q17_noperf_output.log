@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q17 noperf测试开始: 2026-04-15 10:09:49 ===
+运行轮次: 2/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 17  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results17.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 7.425899809983093 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 17 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results17.csv':
+
+         84,743.80 msec task-clock                       #   10.673 CPUs utilized             
+         84,725.29 msec cpu-clock                        #   10.671 CPUs utilized             
+            23,648      context-switches                 #  279.053 /sec                      
+             2,866      cpu-migrations                   #   33.820 /sec                      
+           415,276      page-faults                      #    4.900 K/sec                     
+           415,276      minor-faults                     #    4.900 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       7.940123740 seconds time elapsed
+
+      77.553612000 seconds user
+       6.826558000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q17 noperf测试结束: 2026-04-15 10:09:57 ===
+运行时长: 8秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results17.csv
+CSV文件大小: 568 字节

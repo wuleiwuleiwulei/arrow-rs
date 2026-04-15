@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q15 noperf测试开始: 2026-04-15 10:14:23 ===
+运行轮次: 3/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 15  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results15.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 3.2990487499628216 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 15 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results15.csv':
+
+         68,058.42 msec task-clock                       #   17.564 CPUs utilized             
+         68,055.45 msec cpu-clock                        #   17.563 CPUs utilized             
+             9,349      context-switches                 #  137.367 /sec                      
+             1,072      cpu-migrations                   #   15.751 /sec                      
+           128,316      page-faults                      #    1.885 K/sec                     
+           128,316      minor-faults                     #    1.885 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       3.874917790 seconds time elapsed
+
+      61.939044000 seconds user
+       5.841930000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q15 noperf测试结束: 2026-04-15 10:14:26 ===
+运行时长: 3秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results15.csv
+CSV文件大小: 569 字节

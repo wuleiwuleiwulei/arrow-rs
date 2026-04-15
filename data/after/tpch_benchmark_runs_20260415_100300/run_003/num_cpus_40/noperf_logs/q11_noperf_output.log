@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q11 noperf测试开始: 2026-04-15 10:13:47 ===
+运行轮次: 3/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 11  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results11.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 5.035445490037091 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 11 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results11.csv':
+
+         65,781.04 msec task-clock                       #   11.445 CPUs utilized             
+         65,773.67 msec cpu-clock                        #   11.444 CPUs utilized             
+            13,814      context-switches                 #  210.000 /sec                      
+             1,033      cpu-migrations                   #   15.704 /sec                      
+           206,060      page-faults                      #    3.133 K/sec                     
+           206,060      minor-faults                     #    3.133 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       5.747427050 seconds time elapsed
+
+      63.927014000 seconds user
+       1.664054000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q11 noperf测试结束: 2026-04-15 10:13:53 ===
+运行时长: 6秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results11.csv
+CSV文件大小: 569 字节

@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q14 noperf测试开始: 2026-04-15 10:09:30 ===
+运行轮次: 2/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 14  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results14.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 5.981023019994609 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 14 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results14.csv':
+
+         39,164.89 msec task-clock                       #    5.579 CPUs utilized             
+         39,155.29 msec cpu-clock                        #    5.578 CPUs utilized             
+             8,293      context-switches                 #  211.746 /sec                      
+             1,282      cpu-migrations                   #   32.733 /sec                      
+           139,084      page-faults                      #    3.551 K/sec                     
+           139,084      minor-faults                     #    3.551 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       7.019757810 seconds time elapsed
+
+      35.191573000 seconds user
+       3.819490000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q14 noperf测试结束: 2026-04-15 10:09:38 ===
+运行时长: 8秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results14.csv
+CSV文件大小: 569 字节

@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q10 noperf测试开始: 2026-04-15 10:23:09 ===
+运行轮次: 5/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 10  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results10.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 9.244913430011366 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 10 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results10.csv':
+
+         92,748.09 msec task-clock                       #    9.137 CPUs utilized             
+         92,730.35 msec cpu-clock                        #    9.135 CPUs utilized             
+            15,636      context-switches                 #  168.586 /sec                      
+             2,413      cpu-migrations                   #   26.017 /sec                      
+           685,332      page-faults                      #    7.389 K/sec                     
+           685,332      minor-faults                     #    7.389 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      10.150673720 seconds time elapsed
+
+      86.967191000 seconds user
+       5.427932000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q10 noperf测试结束: 2026-04-15 10:23:19 ===
+运行时长: 10秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results10.csv
+CSV文件大小: 569 字节

@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q18 noperf测试开始: 2026-04-15 10:05:15 ===
+运行轮次: 1/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 18  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results18.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 15.837640609999653 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 18 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results18.csv':
+
+        253,062.15 msec task-clock                       #   15.369 CPUs utilized             
+        253,038.40 msec cpu-clock                        #   15.367 CPUs utilized             
+            42,721      context-switches                 #  168.816 /sec                      
+             7,495      cpu-migrations                   #   29.617 /sec                      
+         1,653,930      page-faults                      #    6.536 K/sec                     
+         1,653,930      minor-faults                     #    6.536 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      16.465912990 seconds time elapsed
+
+     243.333250000 seconds user
+       8.788293000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q18 noperf测试结束: 2026-04-15 10:05:31 ===
+运行时长: 16秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results18.csv
+CSV文件大小: 569 字节

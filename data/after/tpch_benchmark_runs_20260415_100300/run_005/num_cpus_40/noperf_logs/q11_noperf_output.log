@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q11 noperf测试开始: 2026-04-15 10:23:19 ===
+运行轮次: 5/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 11  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results11.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 3.5755856899777427 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 11 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results11.csv':
+
+         63,870.74 msec task-clock                       #   15.279 CPUs utilized             
+         63,865.70 msec cpu-clock                        #   15.278 CPUs utilized             
+            10,831      context-switches                 #  169.577 /sec                      
+             1,154      cpu-migrations                   #   18.068 /sec                      
+           126,010      page-faults                      #    1.973 K/sec                     
+           126,010      minor-faults                     #    1.973 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       4.180211380 seconds time elapsed
+
+      62.187124000 seconds user
+       1.467885000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q11 noperf测试结束: 2026-04-15 10:23:24 ===
+运行时长: 5秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results11.csv
+CSV文件大小: 569 字节

@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q19 noperf测试开始: 2026-04-15 10:10:15 ===
+运行轮次: 2/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 19  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results19.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 6.001017779984977 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 19 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results19.csv':
+
+         75,511.82 msec task-clock                       #   11.536 CPUs utilized             
+         75,498.69 msec cpu-clock                        #   11.534 CPUs utilized             
+            10,148      context-switches                 #  134.390 /sec                      
+             1,768      cpu-migrations                   #   23.414 /sec                      
+           228,943      page-faults                      #    3.032 K/sec                     
+           228,943      minor-faults                     #    3.032 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       6.545583140 seconds time elapsed
+
+      70.039791000 seconds user
+       5.197428000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q19 noperf测试结束: 2026-04-15 10:10:22 ===
+运行时长: 7秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results19.csv
+CSV文件大小: 569 字节

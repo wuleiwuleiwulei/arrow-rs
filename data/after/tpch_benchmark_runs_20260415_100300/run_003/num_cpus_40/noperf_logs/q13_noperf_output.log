@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q13 noperf测试开始: 2026-04-15 10:13:58 ===
+运行轮次: 3/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 13  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results13.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 16.79555837000953 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 13 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results13.csv':
+
+        197,084.32 msec task-clock                       #   10.995 CPUs utilized             
+        197,071.70 msec cpu-clock                        #   10.994 CPUs utilized             
+            17,918      context-switches                 #   90.915 /sec                      
+             1,603      cpu-migrations                   #    8.134 /sec                      
+           522,516      page-faults                      #    2.651 K/sec                     
+           522,516      minor-faults                     #    2.651 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      17.924870920 seconds time elapsed
+
+     192.274973000 seconds user
+       4.272026000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q13 noperf测试结束: 2026-04-15 10:14:16 ===
+运行时长: 18秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results13.csv
+CSV文件大小: 570 字节

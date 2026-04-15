@@ -1,0 +1,13 @@
+=== TPC-H 查询 Q21 perf测试开始: 2026-04-15 10:21:28 ===
+运行轮次: 5/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: perf record -F 249 -g --call-graph dwarf -o /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q21.data numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 21  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_results/tpch_results21.csv
+==========================================
+Error:
+cpu-clock: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
+==========================================
+=== TPC-H 查询 Q21 perf测试结束: 2026-04-15 10:21:28 ===
+运行时长: 0秒
+退出码: 255

@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q16 noperf测试开始: 2026-04-15 10:19:10 ===
+运行轮次: 4/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 16  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results16.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 6.207009839999955 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 16 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results16.csv':
+
+         27,349.84 msec task-clock                       #    3.937 CPUs utilized             
+         27,341.69 msec cpu-clock                        #    3.936 CPUs utilized             
+             8,506      context-switches                 #  311.007 /sec                      
+               912      cpu-migrations                   #   33.346 /sec                      
+           151,966      page-faults                      #    5.556 K/sec                     
+           151,966      minor-faults                     #    5.556 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       6.946713820 seconds time elapsed
+
+      26.007450000 seconds user
+       1.245133000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q16 noperf测试结束: 2026-04-15 10:19:17 ===
+运行时长: 7秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results16.csv
+CSV文件大小: 569 字节

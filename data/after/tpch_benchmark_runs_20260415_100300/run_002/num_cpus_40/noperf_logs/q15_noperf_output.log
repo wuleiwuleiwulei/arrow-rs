@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q15 noperf测试开始: 2026-04-15 10:09:38 ===
+运行轮次: 2/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 15  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results15.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 4.386780810018536 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 15 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results15.csv':
+
+         69,117.93 msec task-clock                       #   13.440 CPUs utilized             
+         69,110.47 msec cpu-clock                        #   13.438 CPUs utilized             
+            13,120      context-switches                 #  189.820 /sec                      
+             1,212      cpu-migrations                   #   17.535 /sec                      
+           146,012      page-faults                      #    2.113 K/sec                     
+           146,011      minor-faults                     #    2.112 K/sec                     
+                 1      major-faults                     #    0.014 /sec                      
+
+       5.142839460 seconds time elapsed
+
+      62.983106000 seconds user
+       5.872114000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q15 noperf测试结束: 2026-04-15 10:09:43 ===
+运行时长: 5秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results15.csv
+CSV文件大小: 569 字节

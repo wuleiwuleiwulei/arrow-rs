@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q2 noperf测试开始: 2026-04-15 10:21:35 ===
+运行轮次: 5/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 2  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results2.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 3.4783598799840547 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 2 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results2.csv':
+
+         28,074.51 msec task-clock                       #    6.679 CPUs utilized             
+         28,063.09 msec cpu-clock                        #    6.676 CPUs utilized             
+            12,310      context-switches                 #  438.476 /sec                      
+             2,511      cpu-migrations                   #   89.441 /sec                      
+           150,401      page-faults                      #    5.357 K/sec                     
+           150,401      minor-faults                     #    5.357 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       4.203478280 seconds time elapsed
+
+      25.954407000 seconds user
+       1.967341000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q2 noperf测试结束: 2026-04-15 10:21:39 ===
+运行时长: 4秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results2.csv
+CSV文件大小: 569 字节

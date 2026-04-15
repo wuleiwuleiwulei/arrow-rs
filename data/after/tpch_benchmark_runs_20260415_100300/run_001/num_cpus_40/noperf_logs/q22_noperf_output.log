@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q22 noperf测试开始: 2026-04-15 10:07:09 ===
+运行轮次: 1/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 22  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results22.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 8.216863840003498 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 22 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results22.csv':
+
+         86,458.39 msec task-clock                       #    9.635 CPUs utilized             
+         86,446.60 msec cpu-clock                        #    9.634 CPUs utilized             
+            20,838      context-switches                 #  241.018 /sec                      
+             1,663      cpu-migrations                   #   19.235 /sec                      
+           257,112      page-faults                      #    2.974 K/sec                     
+           257,112      minor-faults                     #    2.974 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       8.973027360 seconds time elapsed
+
+      84.402987000 seconds user
+       1.771444000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q22 noperf测试结束: 2026-04-15 10:07:18 ===
+运行时长: 9秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results22.csv
+CSV文件大小: 569 字节

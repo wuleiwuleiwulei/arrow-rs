@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q21 noperf测试开始: 2026-04-15 10:19:59 ===
+运行轮次: 4/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 21  --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results21.csv
+==========================================
+/home/wl/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 77.50448500999482 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 21 --skip_warmup --scale_factor 100.0 --output_csv /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results21.csv':
+
+        738,837.64 msec task-clock                       #    9.414 CPUs utilized             
+        738,749.80 msec cpu-clock                        #    9.413 CPUs utilized             
+           107,454      context-switches                 #  145.437 /sec                      
+             8,974      cpu-migrations                   #   12.146 /sec                      
+         7,107,900      page-faults                      #    9.620 K/sec                     
+         7,107,900      minor-faults                     #    9.620 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      78.482106880 seconds time elapsed
+
+     706.770881000 seconds user
+      29.675988000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q21 noperf测试结束: 2026-04-15 10:21:18 ===
+运行时长: 79秒
+退出码: 0
+CSV结果文件已生成: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results21.csv
+CSV文件大小: 570 字节
