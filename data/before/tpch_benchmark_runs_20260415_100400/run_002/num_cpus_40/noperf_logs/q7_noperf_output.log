@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q7 noperf测试开始: 2026-04-15 10:09:36 ===
+运行轮次: 2/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 7  --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_002/num_cpus_40/noperf_results/tpch_results7.csv
+==========================================
+/home/w00476046/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 10.408193259965628 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 7 --skip_warmup --scale_factor 100.0 --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_002/num_cpus_40/noperf_results/tpch_results7.csv':
+
+        105,108.86 msec task-clock                       #    9.441 CPUs utilized             
+        105,086.09 msec cpu-clock                        #    9.439 CPUs utilized             
+            22,152      context-switches                 #  210.753 /sec                      
+             2,769      cpu-migrations                   #   26.344 /sec                      
+           833,260      page-faults                      #    7.928 K/sec                     
+           833,260      minor-faults                     #    7.928 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      11.133305710 seconds time elapsed
+
+      97.440241000 seconds user
+       7.225174000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q7 noperf测试结束: 2026-04-15 10:09:47 ===
+运行时长: 11秒
+退出码: 0
+CSV结果文件已生成: /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_002/num_cpus_40/noperf_results/tpch_results7.csv
+CSV文件大小: 569 字节

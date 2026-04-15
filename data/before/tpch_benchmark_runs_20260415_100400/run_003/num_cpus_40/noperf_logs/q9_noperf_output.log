@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q9 noperf测试开始: 2026-04-15 10:15:01 ===
+运行轮次: 3/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 9  --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_003/num_cpus_40/noperf_results/tpch_results9.csv
+==========================================
+/home/w00476046/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 41.09157759998925 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 9 --skip_warmup --scale_factor 100.0 --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_003/num_cpus_40/noperf_results/tpch_results9.csv':
+
+        290,172.95 msec task-clock                       #    6.929 CPUs utilized             
+        290,113.33 msec cpu-clock                        #    6.927 CPUs utilized             
+            61,015      context-switches                 #  210.271 /sec                      
+             6,833      cpu-migrations                   #   23.548 /sec                      
+         2,698,194      page-faults                      #    9.299 K/sec                     
+         2,698,194      minor-faults                     #    9.299 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+      41.878892450 seconds time elapsed
+
+     275.088368000 seconds user
+      14.019666000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q9 noperf测试结束: 2026-04-15 10:15:43 ===
+运行时长: 42秒
+退出码: 0
+CSV结果文件已生成: /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_003/num_cpus_40/noperf_results/tpch_results9.csv
+CSV文件大小: 570 字节

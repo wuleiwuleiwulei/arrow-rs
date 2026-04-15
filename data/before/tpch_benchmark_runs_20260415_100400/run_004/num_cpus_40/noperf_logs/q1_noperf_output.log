@@ -1,0 +1,33 @@
+=== TPC-H 查询 Q1 noperf测试开始: 2026-04-15 10:18:54 ===
+运行轮次: 4/5
+CPU配置: num_cpus_40
+绑核命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183
+--num_cpus 参数: 
+命令: numactl --cpunodebind=2 --membind=2 taskset -c 160-183 python __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 1  --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_004/num_cpus_40/noperf_results/tpch_results1.csv
+==========================================
+/home/w00476046/Daft/benchmarking/tpch/__main__.py:316: UserWarning: Detected --skip_warmup flag, skipping warm up task
+  warnings.warn("Detected --skip_warmup flag, skipping warm up task")
+ALL PYTHON Time taken: 6.545442510046996 seconds
+
+ Performance counter stats for 'python -X perf __main__.py --tpch_gen_folder /home/data/tpch-dbgen --questions 1 --skip_warmup --scale_factor 100.0 --output_csv /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_004/num_cpus_40/noperf_results/tpch_results1.csv':
+
+        136,910.09 msec task-clock                       #   19.342 CPUs utilized             
+        136,906.09 msec cpu-clock                        #   19.341 CPUs utilized             
+             9,758      context-switches                 #   71.273 /sec                      
+               896      cpu-migrations                   #    6.544 /sec                      
+           656,076      page-faults                      #    4.792 K/sec                     
+           656,076      minor-faults                     #    4.792 K/sec                     
+                 0      major-faults                     #    0.000 /sec                      
+
+       7.078414330 seconds time elapsed
+
+     130.651769000 seconds user
+       5.855056000 seconds sys
+
+
+==========================================
+=== TPC-H 查询 Q1 noperf测试结束: 2026-04-15 10:19:02 ===
+运行时长: 8秒
+退出码: 0
+CSV结果文件已生成: /home/w00476046/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100400/run_004/num_cpus_40/noperf_results/tpch_results1.csv
+CSV文件大小: 569 字节
