@@ -1,0 +1,1382 @@
+=== TPC-H 基准测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+总运行轮次: 5
+CPU配置数: 1
+查询数量: 1
+基础输出目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300
+数据文件目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300
+==========================================
+=== 第 1/5 轮运行开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+结果目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001
+数据目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001
+  === 配置: num_cpus_40 开始 ===
+  配置目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40
+    == 开始运行 perf 版本查询 ==
+      === 查询 Q1 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q1.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q1_perf_output.log
+      === 查询 Q1 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q2 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q2.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q2_perf_output.log
+      === 查询 Q2 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q3 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q3.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q3_perf_output.log
+      === 查询 Q3 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q4 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q4.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q4_perf_output.log
+      === 查询 Q4 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q5 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q5.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q5_perf_output.log
+      === 查询 Q5 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q6 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q6.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q6_perf_output.log
+      === 查询 Q6 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q7 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q7.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q7_perf_output.log
+      === 查询 Q7 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q8 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q8.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q8_perf_output.log
+      === 查询 Q8 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q9 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q9.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q9_perf_output.log
+      === 查询 Q9 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q10 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q10.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q10_perf_output.log
+      === 查询 Q10 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q11 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q11.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q11_perf_output.log
+      === 查询 Q11 perf测试结束: 2026-04-15 10:03:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q12 perf测试开始: Wed Apr 15 10:03:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q12.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q12_perf_output.log
+      === 查询 Q12 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 1秒
+      退出码: 255
+      === 查询 Q13 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q13.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q13_perf_output.log
+      === 查询 Q13 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q14 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q14.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q14_perf_output.log
+      === 查询 Q14 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q15 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q15.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q15_perf_output.log
+      === 查询 Q15 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q16 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q16.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q16_perf_output.log
+      === 查询 Q16 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q17 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q17.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q17_perf_output.log
+      === 查询 Q17 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q18 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q18.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q18_perf_output.log
+      === 查询 Q18 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q19 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q19.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q19_perf_output.log
+      === 查询 Q19 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q20 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q20.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q20_perf_output.log
+      === 查询 Q20 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q21 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q21.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q21_perf_output.log
+      === 查询 Q21 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q22 perf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_001/num_cpus_40/perf_q22.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/perf_logs/q22_perf_output.log
+      === 查询 Q22 perf测试结束: 2026-04-15 10:03:04 ===
+      运行时长: 0秒
+      退出码: 255
+    == perf 版本查询完成 ==
+    == 开始运行 noperf 版本查询 ==
+      === 查询 Q1 noperf测试开始: Wed Apr 15 10:03:04 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results1.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q1_noperf_output.log
+      === 查询 Q1 noperf测试结束: 2026-04-15 10:03:11 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q2 noperf测试开始: Wed Apr 15 10:03:11 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results2.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q2_noperf_output.log
+      === 查询 Q2 noperf测试结束: 2026-04-15 10:03:13 ===
+      运行时长: 2秒
+      退出码: 0
+      === 查询 Q3 noperf测试开始: Wed Apr 15 10:03:13 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results3.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q3_noperf_output.log
+      === 查询 Q3 noperf测试结束: 2026-04-15 10:03:19 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q4 noperf测试开始: Wed Apr 15 10:03:19 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results4.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q4_noperf_output.log
+      === 查询 Q4 noperf测试结束: 2026-04-15 10:03:23 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q5 noperf测试开始: Wed Apr 15 10:03:23 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results5.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q5_noperf_output.log
+      === 查询 Q5 noperf测试结束: 2026-04-15 10:03:29 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q6 noperf测试开始: Wed Apr 15 10:03:29 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results6.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q6_noperf_output.log
+      === 查询 Q6 noperf测试结束: 2026-04-15 10:03:31 ===
+      运行时长: 2秒
+      退出码: 0
+      === 查询 Q7 noperf测试开始: Wed Apr 15 10:03:31 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results7.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q7_noperf_output.log
+      === 查询 Q7 noperf测试结束: 2026-04-15 10:03:38 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q8 noperf测试开始: Wed Apr 15 10:03:38 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results8.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q8_noperf_output.log
+      === 查询 Q8 noperf测试结束: 2026-04-15 10:03:45 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q9 noperf测试开始: Wed Apr 15 10:03:45 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results9.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q9_noperf_output.log
+      === 查询 Q9 noperf测试结束: 2026-04-15 10:04:09 ===
+      运行时长: 24秒
+      退出码: 0
+      === 查询 Q10 noperf测试开始: Wed Apr 15 10:04:09 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results10.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q10_noperf_output.log
+      === 查询 Q10 noperf测试结束: 2026-04-15 10:04:20 ===
+      运行时长: 11秒
+      退出码: 0
+      === 查询 Q11 noperf测试开始: Wed Apr 15 10:04:20 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results11.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q11_noperf_output.log
+      === 查询 Q11 noperf测试结束: 2026-04-15 10:04:26 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q12 noperf测试开始: Wed Apr 15 10:04:26 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results12.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q12_noperf_output.log
+      === 查询 Q12 noperf测试结束: 2026-04-15 10:04:31 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q13 noperf测试开始: Wed Apr 15 10:04:31 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results13.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q13_noperf_output.log
+      === 查询 Q13 noperf测试结束: 2026-04-15 10:04:50 ===
+      运行时长: 19秒
+      退出码: 0
+      === 查询 Q14 noperf测试开始: Wed Apr 15 10:04:50 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results14.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q14_noperf_output.log
+      === 查询 Q14 noperf测试结束: 2026-04-15 10:04:56 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q15 noperf测试开始: Wed Apr 15 10:04:56 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results15.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q15_noperf_output.log
+      === 查询 Q15 noperf测试结束: 2026-04-15 10:05:02 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q16 noperf测试开始: Wed Apr 15 10:05:02 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results16.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q16_noperf_output.log
+      === 查询 Q16 noperf测试结束: 2026-04-15 10:05:09 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q17 noperf测试开始: Wed Apr 15 10:05:09 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results17.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q17_noperf_output.log
+      === 查询 Q17 noperf测试结束: 2026-04-15 10:05:15 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q18 noperf测试开始: Wed Apr 15 10:05:15 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results18.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q18_noperf_output.log
+      === 查询 Q18 noperf测试结束: 2026-04-15 10:05:31 ===
+      运行时长: 16秒
+      退出码: 0
+      === 查询 Q19 noperf测试开始: Wed Apr 15 10:05:31 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results19.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q19_noperf_output.log
+      === 查询 Q19 noperf测试结束: 2026-04-15 10:05:37 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q20 noperf测试开始: Wed Apr 15 10:05:37 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results20.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q20_noperf_output.log
+      === 查询 Q20 noperf测试结束: 2026-04-15 10:05:46 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q21 noperf测试开始: Wed Apr 15 10:05:46 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results21.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q21_noperf_output.log
+      === 查询 Q21 noperf测试结束: 2026-04-15 10:07:09 ===
+      运行时长: 83秒
+      退出码: 0
+      === 查询 Q22 noperf测试开始: Wed Apr 15 10:07:09 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_results/tpch_results22.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_001/num_cpus_40/noperf_logs/q22_noperf_output.log
+      === 查询 Q22 noperf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 9秒
+      退出码: 0
+    == noperf 版本查询完成 ==
+  === 配置: num_cpus_40 完成 ===
+=== 第 1/5 轮运行完成: Wed Apr 15 10:07:18 AM CST 2026 ===
+=== 第 2/5 轮运行开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+结果目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002
+数据目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002
+  === 配置: num_cpus_40 开始 ===
+  配置目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40
+    == 开始运行 perf 版本查询 ==
+      === 查询 Q1 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q1.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q1_perf_output.log
+      === 查询 Q1 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q2 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q2.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q2_perf_output.log
+      === 查询 Q2 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q3 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q3.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q3_perf_output.log
+      === 查询 Q3 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q4 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q4.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q4_perf_output.log
+      === 查询 Q4 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q5 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q5.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q5_perf_output.log
+      === 查询 Q5 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q6 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q6.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q6_perf_output.log
+      === 查询 Q6 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q7 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q7.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q7_perf_output.log
+      === 查询 Q7 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q8 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q8.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q8_perf_output.log
+      === 查询 Q8 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q9 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q9.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q9_perf_output.log
+      === 查询 Q9 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q10 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q10.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q10_perf_output.log
+      === 查询 Q10 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q11 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q11.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q11_perf_output.log
+      === 查询 Q11 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q12 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q12.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q12_perf_output.log
+      === 查询 Q12 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q13 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q13.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q13_perf_output.log
+      === 查询 Q13 perf测试结束: 2026-04-15 10:07:18 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q14 perf测试开始: Wed Apr 15 10:07:18 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q14.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q14_perf_output.log
+      === 查询 Q14 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 1秒
+      退出码: 255
+      === 查询 Q15 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q15.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q15_perf_output.log
+      === 查询 Q15 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q16 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q16.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q16_perf_output.log
+      === 查询 Q16 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q17 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q17.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q17_perf_output.log
+      === 查询 Q17 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q18 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q18.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q18_perf_output.log
+      === 查询 Q18 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q19 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q19.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q19_perf_output.log
+      === 查询 Q19 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q20 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q20.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q20_perf_output.log
+      === 查询 Q20 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q21 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q21.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q21_perf_output.log
+      === 查询 Q21 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q22 perf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_002/num_cpus_40/perf_q22.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/perf_logs/q22_perf_output.log
+      === 查询 Q22 perf测试结束: 2026-04-15 10:07:19 ===
+      运行时长: 0秒
+      退出码: 255
+    == perf 版本查询完成 ==
+    == 开始运行 noperf 版本查询 ==
+      === 查询 Q1 noperf测试开始: Wed Apr 15 10:07:19 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results1.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q1_noperf_output.log
+      === 查询 Q1 noperf测试结束: 2026-04-15 10:07:29 ===
+      运行时长: 10秒
+      退出码: 0
+      === 查询 Q2 noperf测试开始: Wed Apr 15 10:07:29 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results2.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q2_noperf_output.log
+      === 查询 Q2 noperf测试结束: 2026-04-15 10:07:37 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q3 noperf测试开始: Wed Apr 15 10:07:37 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results3.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q3_noperf_output.log
+      === 查询 Q3 noperf测试结束: 2026-04-15 10:07:48 ===
+      运行时长: 11秒
+      退出码: 0
+      === 查询 Q4 noperf测试开始: Wed Apr 15 10:07:48 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results4.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q4_noperf_output.log
+      === 查询 Q4 noperf测试结束: 2026-04-15 10:07:52 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q5 noperf测试开始: Wed Apr 15 10:07:52 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results5.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q5_noperf_output.log
+      === 查询 Q5 noperf测试结束: 2026-04-15 10:07:58 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q6 noperf测试开始: Wed Apr 15 10:07:58 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results6.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q6_noperf_output.log
+      === 查询 Q6 noperf测试结束: 2026-04-15 10:08:00 ===
+      运行时长: 2秒
+      退出码: 0
+      === 查询 Q7 noperf测试开始: Wed Apr 15 10:08:00 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results7.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q7_noperf_output.log
+      === 查询 Q7 noperf测试结束: 2026-04-15 10:08:09 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q8 noperf测试开始: Wed Apr 15 10:08:09 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results8.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q8_noperf_output.log
+      === 查询 Q8 noperf测试结束: 2026-04-15 10:08:23 ===
+      运行时长: 14秒
+      退出码: 0
+      === 查询 Q9 noperf测试开始: Wed Apr 15 10:08:23 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results9.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q9_noperf_output.log
+      === 查询 Q9 noperf测试结束: 2026-04-15 10:08:52 ===
+      运行时长: 29秒
+      退出码: 0
+      === 查询 Q10 noperf测试开始: Wed Apr 15 10:08:52 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results10.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q10_noperf_output.log
+      === 查询 Q10 noperf测试结束: 2026-04-15 10:09:04 ===
+      运行时长: 12秒
+      退出码: 0
+      === 查询 Q11 noperf测试开始: Wed Apr 15 10:09:04 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results11.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q11_noperf_output.log
+      === 查询 Q11 noperf测试结束: 2026-04-15 10:09:08 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q12 noperf测试开始: Wed Apr 15 10:09:08 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results12.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q12_noperf_output.log
+      === 查询 Q12 noperf测试结束: 2026-04-15 10:09:13 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q13 noperf测试开始: Wed Apr 15 10:09:13 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results13.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q13_noperf_output.log
+      === 查询 Q13 noperf测试结束: 2026-04-15 10:09:30 ===
+      运行时长: 17秒
+      退出码: 0
+      === 查询 Q14 noperf测试开始: Wed Apr 15 10:09:30 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results14.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q14_noperf_output.log
+      === 查询 Q14 noperf测试结束: 2026-04-15 10:09:38 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q15 noperf测试开始: Wed Apr 15 10:09:38 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results15.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q15_noperf_output.log
+      === 查询 Q15 noperf测试结束: 2026-04-15 10:09:43 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q16 noperf测试开始: Wed Apr 15 10:09:43 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results16.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q16_noperf_output.log
+      === 查询 Q16 noperf测试结束: 2026-04-15 10:09:49 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q17 noperf测试开始: Wed Apr 15 10:09:49 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results17.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q17_noperf_output.log
+      === 查询 Q17 noperf测试结束: 2026-04-15 10:09:57 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q18 noperf测试开始: Wed Apr 15 10:09:57 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results18.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q18_noperf_output.log
+      === 查询 Q18 noperf测试结束: 2026-04-15 10:10:15 ===
+      运行时长: 18秒
+      退出码: 0
+      === 查询 Q19 noperf测试开始: Wed Apr 15 10:10:15 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results19.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q19_noperf_output.log
+      === 查询 Q19 noperf测试结束: 2026-04-15 10:10:22 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q20 noperf测试开始: Wed Apr 15 10:10:22 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results20.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q20_noperf_output.log
+      === 查询 Q20 noperf测试结束: 2026-04-15 10:10:28 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q21 noperf测试开始: Wed Apr 15 10:10:28 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results21.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q21_noperf_output.log
+      === 查询 Q21 noperf测试结束: 2026-04-15 10:11:55 ===
+      运行时长: 87秒
+      退出码: 0
+      === 查询 Q22 noperf测试开始: Wed Apr 15 10:11:55 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_results/tpch_results22.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_002/num_cpus_40/noperf_logs/q22_noperf_output.log
+      === 查询 Q22 noperf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 8秒
+      退出码: 0
+    == noperf 版本查询完成 ==
+  === 配置: num_cpus_40 完成 ===
+=== 第 2/5 轮运行完成: Wed Apr 15 10:12:03 AM CST 2026 ===
+=== 第 3/5 轮运行开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+结果目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003
+数据目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003
+  === 配置: num_cpus_40 开始 ===
+  配置目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40
+    == 开始运行 perf 版本查询 ==
+      === 查询 Q1 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q1.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q1_perf_output.log
+      === 查询 Q1 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q2 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q2.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q2_perf_output.log
+      === 查询 Q2 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q3 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q3.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q3_perf_output.log
+      === 查询 Q3 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q4 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q4.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q4_perf_output.log
+      === 查询 Q4 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q5 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q5.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q5_perf_output.log
+      === 查询 Q5 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q6 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q6.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q6_perf_output.log
+      === 查询 Q6 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q7 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q7.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q7_perf_output.log
+      === 查询 Q7 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q8 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q8.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q8_perf_output.log
+      === 查询 Q8 perf测试结束: 2026-04-15 10:12:03 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q9 perf测试开始: Wed Apr 15 10:12:03 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q9.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q9_perf_output.log
+      === 查询 Q9 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 1秒
+      退出码: 255
+      === 查询 Q10 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q10.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q10_perf_output.log
+      === 查询 Q10 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q11 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q11.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q11_perf_output.log
+      === 查询 Q11 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q12 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q12.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q12_perf_output.log
+      === 查询 Q12 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q13 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q13.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q13_perf_output.log
+      === 查询 Q13 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q14 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q14.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q14_perf_output.log
+      === 查询 Q14 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q15 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q15.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q15_perf_output.log
+      === 查询 Q15 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q16 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q16.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q16_perf_output.log
+      === 查询 Q16 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q17 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q17.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q17_perf_output.log
+      === 查询 Q17 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q18 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q18.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q18_perf_output.log
+      === 查询 Q18 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q19 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q19.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q19_perf_output.log
+      === 查询 Q19 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q20 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q20.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q20_perf_output.log
+      === 查询 Q20 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q21 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q21.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q21_perf_output.log
+      === 查询 Q21 perf测试结束: 2026-04-15 10:12:04 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q22 perf测试开始: Wed Apr 15 10:12:04 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_003/num_cpus_40/perf_q22.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/perf_logs/q22_perf_output.log
+      === 查询 Q22 perf测试结束: 2026-04-15 10:12:05 ===
+      运行时长: 1秒
+      退出码: 255
+    == perf 版本查询完成 ==
+    == 开始运行 noperf 版本查询 ==
+      === 查询 Q1 noperf测试开始: Wed Apr 15 10:12:05 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results1.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q1_noperf_output.log
+      === 查询 Q1 noperf测试结束: 2026-04-15 10:12:15 ===
+      运行时长: 10秒
+      退出码: 0
+      === 查询 Q2 noperf测试开始: Wed Apr 15 10:12:15 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results2.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q2_noperf_output.log
+      === 查询 Q2 noperf测试结束: 2026-04-15 10:12:18 ===
+      运行时长: 3秒
+      退出码: 0
+      === 查询 Q3 noperf测试开始: Wed Apr 15 10:12:18 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results3.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q3_noperf_output.log
+      === 查询 Q3 noperf测试结束: 2026-04-15 10:12:36 ===
+      运行时长: 18秒
+      退出码: 0
+      === 查询 Q4 noperf测试开始: Wed Apr 15 10:12:36 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results4.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q4_noperf_output.log
+      === 查询 Q4 noperf测试结束: 2026-04-15 10:12:40 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q5 noperf测试开始: Wed Apr 15 10:12:40 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results5.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q5_noperf_output.log
+      === 查询 Q5 noperf测试结束: 2026-04-15 10:12:45 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q6 noperf测试开始: Wed Apr 15 10:12:45 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results6.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q6_noperf_output.log
+      === 查询 Q6 noperf测试结束: 2026-04-15 10:12:48 ===
+      运行时长: 3秒
+      退出码: 0
+      === 查询 Q7 noperf测试开始: Wed Apr 15 10:12:48 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results7.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q7_noperf_output.log
+      === 查询 Q7 noperf测试结束: 2026-04-15 10:12:55 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q8 noperf测试开始: Wed Apr 15 10:12:55 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results8.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q8_noperf_output.log
+      === 查询 Q8 noperf测试结束: 2026-04-15 10:13:08 ===
+      运行时长: 13秒
+      退出码: 0
+      === 查询 Q9 noperf测试开始: Wed Apr 15 10:13:08 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results9.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q9_noperf_output.log
+      === 查询 Q9 noperf测试结束: 2026-04-15 10:13:39 ===
+      运行时长: 31秒
+      退出码: 0
+      === 查询 Q10 noperf测试开始: Wed Apr 15 10:13:39 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results10.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q10_noperf_output.log
+      === 查询 Q10 noperf测试结束: 2026-04-15 10:13:47 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q11 noperf测试开始: Wed Apr 15 10:13:47 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results11.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q11_noperf_output.log
+      === 查询 Q11 noperf测试结束: 2026-04-15 10:13:53 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q12 noperf测试开始: Wed Apr 15 10:13:53 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results12.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q12_noperf_output.log
+      === 查询 Q12 noperf测试结束: 2026-04-15 10:13:58 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q13 noperf测试开始: Wed Apr 15 10:13:58 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results13.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q13_noperf_output.log
+      === 查询 Q13 noperf测试结束: 2026-04-15 10:14:16 ===
+      运行时长: 18秒
+      退出码: 0
+      === 查询 Q14 noperf测试开始: Wed Apr 15 10:14:16 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results14.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q14_noperf_output.log
+      === 查询 Q14 noperf测试结束: 2026-04-15 10:14:22 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q15 noperf测试开始: Wed Apr 15 10:14:23 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results15.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q15_noperf_output.log
+      === 查询 Q15 noperf测试结束: 2026-04-15 10:14:26 ===
+      运行时长: 3秒
+      退出码: 0
+      === 查询 Q16 noperf测试开始: Wed Apr 15 10:14:26 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results16.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q16_noperf_output.log
+      === 查询 Q16 noperf测试结束: 2026-04-15 10:14:34 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q17 noperf测试开始: Wed Apr 15 10:14:34 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results17.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q17_noperf_output.log
+      === 查询 Q17 noperf测试结束: 2026-04-15 10:14:40 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q18 noperf测试开始: Wed Apr 15 10:14:40 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results18.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q18_noperf_output.log
+      === 查询 Q18 noperf测试结束: 2026-04-15 10:15:00 ===
+      运行时长: 20秒
+      退出码: 0
+      === 查询 Q19 noperf测试开始: Wed Apr 15 10:15:00 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results19.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q19_noperf_output.log
+      === 查询 Q19 noperf测试结束: 2026-04-15 10:15:06 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q20 noperf测试开始: Wed Apr 15 10:15:06 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results20.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q20_noperf_output.log
+      === 查询 Q20 noperf测试结束: 2026-04-15 10:15:14 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q21 noperf测试开始: Wed Apr 15 10:15:14 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results21.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q21_noperf_output.log
+      === 查询 Q21 noperf测试结束: 2026-04-15 10:16:33 ===
+      运行时长: 79秒
+      退出码: 0
+      === 查询 Q22 noperf测试开始: Wed Apr 15 10:16:33 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_results/tpch_results22.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_003/num_cpus_40/noperf_logs/q22_noperf_output.log
+      === 查询 Q22 noperf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 7秒
+      退出码: 0
+    == noperf 版本查询完成 ==
+  === 配置: num_cpus_40 完成 ===
+=== 第 3/5 轮运行完成: Wed Apr 15 10:16:40 AM CST 2026 ===
+=== 第 4/5 轮运行开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+结果目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004
+数据目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004
+  === 配置: num_cpus_40 开始 ===
+  配置目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40
+    == 开始运行 perf 版本查询 ==
+      === 查询 Q1 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q1.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q1_perf_output.log
+      === 查询 Q1 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q2 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q2.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q2_perf_output.log
+      === 查询 Q2 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q3 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q3.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q3_perf_output.log
+      === 查询 Q3 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q4 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q4.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q4_perf_output.log
+      === 查询 Q4 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q5 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q5.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q5_perf_output.log
+      === 查询 Q5 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q6 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q6.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q6_perf_output.log
+      === 查询 Q6 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q7 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q7.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q7_perf_output.log
+      === 查询 Q7 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q8 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q8.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q8_perf_output.log
+      === 查询 Q8 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q9 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q9.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q9_perf_output.log
+      === 查询 Q9 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q10 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q10.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q10_perf_output.log
+      === 查询 Q10 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q11 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q11.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q11_perf_output.log
+      === 查询 Q11 perf测试结束: 2026-04-15 10:16:40 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q12 perf测试开始: Wed Apr 15 10:16:40 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q12.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q12_perf_output.log
+      === 查询 Q12 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 1秒
+      退出码: 255
+      === 查询 Q13 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q13.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q13_perf_output.log
+      === 查询 Q13 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q14 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q14.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q14_perf_output.log
+      === 查询 Q14 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q15 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q15.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q15_perf_output.log
+      === 查询 Q15 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q16 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q16.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q16_perf_output.log
+      === 查询 Q16 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q17 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q17.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q17_perf_output.log
+      === 查询 Q17 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q18 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q18.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q18_perf_output.log
+      === 查询 Q18 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q19 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q19.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q19_perf_output.log
+      === 查询 Q19 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q20 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q20.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q20_perf_output.log
+      === 查询 Q20 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q21 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q21.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q21_perf_output.log
+      === 查询 Q21 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q22 perf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_004/num_cpus_40/perf_q22.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/perf_logs/q22_perf_output.log
+      === 查询 Q22 perf测试结束: 2026-04-15 10:16:41 ===
+      运行时长: 0秒
+      退出码: 255
+    == perf 版本查询完成 ==
+    == 开始运行 noperf 版本查询 ==
+      === 查询 Q1 noperf测试开始: Wed Apr 15 10:16:41 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results1.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q1_noperf_output.log
+      === 查询 Q1 noperf测试结束: 2026-04-15 10:16:50 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q2 noperf测试开始: Wed Apr 15 10:16:50 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results2.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q2_noperf_output.log
+      === 查询 Q2 noperf测试结束: 2026-04-15 10:16:57 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q3 noperf测试开始: Wed Apr 15 10:16:57 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results3.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q3_noperf_output.log
+      === 查询 Q3 noperf测试结束: 2026-04-15 10:17:07 ===
+      运行时长: 10秒
+      退出码: 0
+      === 查询 Q4 noperf测试开始: Wed Apr 15 10:17:07 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results4.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q4_noperf_output.log
+      === 查询 Q4 noperf测试结束: 2026-04-15 10:17:13 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q5 noperf测试开始: Wed Apr 15 10:17:13 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results5.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q5_noperf_output.log
+      === 查询 Q5 noperf测试结束: 2026-04-15 10:17:23 ===
+      运行时长: 10秒
+      退出码: 0
+      === 查询 Q6 noperf测试开始: Wed Apr 15 10:17:23 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results6.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q6_noperf_output.log
+      === 查询 Q6 noperf测试结束: 2026-04-15 10:17:28 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q7 noperf测试开始: Wed Apr 15 10:17:28 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results7.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q7_noperf_output.log
+      === 查询 Q7 noperf测试结束: 2026-04-15 10:17:42 ===
+      运行时长: 14秒
+      退出码: 0
+      === 查询 Q8 noperf测试开始: Wed Apr 15 10:17:42 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results8.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q8_noperf_output.log
+      === 查询 Q8 noperf测试结束: 2026-04-15 10:17:50 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q9 noperf测试开始: Wed Apr 15 10:17:50 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results9.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q9_noperf_output.log
+      === 查询 Q9 noperf测试结束: 2026-04-15 10:18:23 ===
+      运行时长: 33秒
+      退出码: 0
+      === 查询 Q10 noperf测试开始: Wed Apr 15 10:18:23 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results10.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q10_noperf_output.log
+      === 查询 Q10 noperf测试结束: 2026-04-15 10:18:32 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q11 noperf测试开始: Wed Apr 15 10:18:32 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results11.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q11_noperf_output.log
+      === 查询 Q11 noperf测试结束: 2026-04-15 10:18:36 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q12 noperf测试开始: Wed Apr 15 10:18:36 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results12.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q12_noperf_output.log
+      === 查询 Q12 noperf测试结束: 2026-04-15 10:18:41 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q13 noperf测试开始: Wed Apr 15 10:18:41 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results13.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q13_noperf_output.log
+      === 查询 Q13 noperf测试结束: 2026-04-15 10:18:57 ===
+      运行时长: 16秒
+      退出码: 0
+      === 查询 Q14 noperf测试开始: Wed Apr 15 10:18:57 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results14.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q14_noperf_output.log
+      === 查询 Q14 noperf测试结束: 2026-04-15 10:19:05 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q15 noperf测试开始: Wed Apr 15 10:19:05 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results15.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q15_noperf_output.log
+      === 查询 Q15 noperf测试结束: 2026-04-15 10:19:10 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q16 noperf测试开始: Wed Apr 15 10:19:10 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results16.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q16_noperf_output.log
+      === 查询 Q16 noperf测试结束: 2026-04-15 10:19:17 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q17 noperf测试开始: Wed Apr 15 10:19:17 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results17.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q17_noperf_output.log
+      === 查询 Q17 noperf测试结束: 2026-04-15 10:19:22 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q18 noperf测试开始: Wed Apr 15 10:19:22 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results18.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q18_noperf_output.log
+      === 查询 Q18 noperf测试结束: 2026-04-15 10:19:42 ===
+      运行时长: 20秒
+      退出码: 0
+      === 查询 Q19 noperf测试开始: Wed Apr 15 10:19:42 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results19.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q19_noperf_output.log
+      === 查询 Q19 noperf测试结束: 2026-04-15 10:19:50 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q20 noperf测试开始: Wed Apr 15 10:19:50 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results20.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q20_noperf_output.log
+      === 查询 Q20 noperf测试结束: 2026-04-15 10:19:59 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q21 noperf测试开始: Wed Apr 15 10:19:59 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results21.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q21_noperf_output.log
+      === 查询 Q21 noperf测试结束: 2026-04-15 10:21:18 ===
+      运行时长: 79秒
+      退出码: 0
+      === 查询 Q22 noperf测试开始: Wed Apr 15 10:21:18 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_results/tpch_results22.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_004/num_cpus_40/noperf_logs/q22_noperf_output.log
+      === 查询 Q22 noperf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 9秒
+      退出码: 0
+    == noperf 版本查询完成 ==
+  === 配置: num_cpus_40 完成 ===
+=== 第 4/5 轮运行完成: Wed Apr 15 10:21:27 AM CST 2026 ===
+=== 第 5/5 轮运行开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+结果目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005
+数据目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005
+  === 配置: num_cpus_40 开始 ===
+  配置目录: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40
+    == 开始运行 perf 版本查询 ==
+      === 查询 Q1 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q1.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q1_perf_output.log
+      === 查询 Q1 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q2 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q2.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q2_perf_output.log
+      === 查询 Q2 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q3 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q3.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q3_perf_output.log
+      === 查询 Q3 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q4 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q4.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q4_perf_output.log
+      === 查询 Q4 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q5 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q5.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q5_perf_output.log
+      === 查询 Q5 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q6 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q6.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q6_perf_output.log
+      === 查询 Q6 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q7 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q7.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q7_perf_output.log
+      === 查询 Q7 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q8 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q8.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q8_perf_output.log
+      === 查询 Q8 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q9 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q9.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q9_perf_output.log
+      === 查询 Q9 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q10 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q10.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q10_perf_output.log
+      === 查询 Q10 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q11 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q11.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q11_perf_output.log
+      === 查询 Q11 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q12 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q12.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q12_perf_output.log
+      === 查询 Q12 perf测试结束: 2026-04-15 10:21:27 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q13 perf测试开始: Wed Apr 15 10:21:27 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q13.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q13_perf_output.log
+      === 查询 Q13 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 1秒
+      退出码: 255
+      === 查询 Q14 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q14.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q14_perf_output.log
+      === 查询 Q14 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q15 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q15.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q15_perf_output.log
+      === 查询 Q15 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q16 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q16.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q16_perf_output.log
+      === 查询 Q16 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q17 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q17.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q17_perf_output.log
+      === 查询 Q17 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q18 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q18.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q18_perf_output.log
+      === 查询 Q18 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q19 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q19.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q19_perf_output.log
+      === 查询 Q19 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q20 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q20.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q20_perf_output.log
+      === 查询 Q20 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q21 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q21.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q21_perf_output.log
+      === 查询 Q21 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+      === 查询 Q22 perf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      数据文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_data_20260415_100300/run_005/num_cpus_40/perf_q22.data
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/perf_logs/q22_perf_output.log
+      === 查询 Q22 perf测试结束: 2026-04-15 10:21:28 ===
+      运行时长: 0秒
+      退出码: 255
+    == perf 版本查询完成 ==
+    == 开始运行 noperf 版本查询 ==
+      === 查询 Q1 noperf测试开始: Wed Apr 15 10:21:28 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results1.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q1_noperf_output.log
+      === 查询 Q1 noperf测试结束: 2026-04-15 10:21:35 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q2 noperf测试开始: Wed Apr 15 10:21:35 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results2.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q2_noperf_output.log
+      === 查询 Q2 noperf测试结束: 2026-04-15 10:21:39 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q3 noperf测试开始: Wed Apr 15 10:21:39 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results3.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q3_noperf_output.log
+      === 查询 Q3 noperf测试结束: 2026-04-15 10:21:52 ===
+      运行时长: 13秒
+      退出码: 0
+      === 查询 Q4 noperf测试开始: Wed Apr 15 10:21:52 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results4.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q4_noperf_output.log
+      === 查询 Q4 noperf测试结束: 2026-04-15 10:21:56 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q5 noperf测试开始: Wed Apr 15 10:21:56 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results5.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q5_noperf_output.log
+      === 查询 Q5 noperf测试结束: 2026-04-15 10:22:05 ===
+      运行时长: 9秒
+      退出码: 0
+      === 查询 Q6 noperf测试开始: Wed Apr 15 10:22:05 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results6.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q6_noperf_output.log
+      === 查询 Q6 noperf测试结束: 2026-04-15 10:22:08 ===
+      运行时长: 3秒
+      退出码: 0
+      === 查询 Q7 noperf测试开始: Wed Apr 15 10:22:08 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results7.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q7_noperf_output.log
+      === 查询 Q7 noperf测试结束: 2026-04-15 10:22:20 ===
+      运行时长: 12秒
+      退出码: 0
+      === 查询 Q8 noperf测试开始: Wed Apr 15 10:22:20 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results8.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q8_noperf_output.log
+      === 查询 Q8 noperf测试结束: 2026-04-15 10:22:38 ===
+      运行时长: 18秒
+      退出码: 0
+      === 查询 Q9 noperf测试开始: Wed Apr 15 10:22:38 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results9.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q9_noperf_output.log
+      === 查询 Q9 noperf测试结束: 2026-04-15 10:23:09 ===
+      运行时长: 31秒
+      退出码: 0
+      === 查询 Q10 noperf测试开始: Wed Apr 15 10:23:09 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results10.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q10_noperf_output.log
+      === 查询 Q10 noperf测试结束: 2026-04-15 10:23:19 ===
+      运行时长: 10秒
+      退出码: 0
+      === 查询 Q11 noperf测试开始: Wed Apr 15 10:23:19 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results11.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q11_noperf_output.log
+      === 查询 Q11 noperf测试结束: 2026-04-15 10:23:24 ===
+      运行时长: 5秒
+      退出码: 0
+      === 查询 Q12 noperf测试开始: Wed Apr 15 10:23:24 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results12.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q12_noperf_output.log
+      === 查询 Q12 noperf测试结束: 2026-04-15 10:23:28 ===
+      运行时长: 4秒
+      退出码: 0
+      === 查询 Q13 noperf测试开始: Wed Apr 15 10:23:28 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results13.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q13_noperf_output.log
+      === 查询 Q13 noperf测试结束: 2026-04-15 10:23:43 ===
+      运行时长: 15秒
+      退出码: 0
+      === 查询 Q14 noperf测试开始: Wed Apr 15 10:23:43 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results14.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q14_noperf_output.log
+      === 查询 Q14 noperf测试结束: 2026-04-15 10:23:50 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q15 noperf测试开始: Wed Apr 15 10:23:50 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results15.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q15_noperf_output.log
+      === 查询 Q15 noperf测试结束: 2026-04-15 10:23:58 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q16 noperf测试开始: Wed Apr 15 10:23:58 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results16.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q16_noperf_output.log
+      === 查询 Q16 noperf测试结束: 2026-04-15 10:24:04 ===
+      运行时长: 6秒
+      退出码: 0
+      === 查询 Q17 noperf测试开始: Wed Apr 15 10:24:04 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results17.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q17_noperf_output.log
+      === 查询 Q17 noperf测试结束: 2026-04-15 10:24:11 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q18 noperf测试开始: Wed Apr 15 10:24:11 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results18.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q18_noperf_output.log
+      === 查询 Q18 noperf测试结束: 2026-04-15 10:24:31 ===
+      运行时长: 20秒
+      退出码: 0
+      === 查询 Q19 noperf测试开始: Wed Apr 15 10:24:31 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results19.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q19_noperf_output.log
+      === 查询 Q19 noperf测试结束: 2026-04-15 10:24:38 ===
+      运行时长: 7秒
+      退出码: 0
+      === 查询 Q20 noperf测试开始: Wed Apr 15 10:24:38 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results20.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q20_noperf_output.log
+      === 查询 Q20 noperf测试结束: 2026-04-15 10:24:46 ===
+      运行时长: 8秒
+      退出码: 0
+      === 查询 Q21 noperf测试开始: Wed Apr 15 10:24:46 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results21.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q21_noperf_output.log
+      === 查询 Q21 noperf测试结束: 2026-04-15 10:26:10 ===
+      运行时长: 84秒
+      退出码: 0
+      === 查询 Q22 noperf测试开始: Wed Apr 15 10:26:10 AM CST 2026 ===
+      输出文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_results/tpch_results22.csv
+      日志文件: /home/wl/Daft/benchmarking/tpch/tpch_benchmark_runs_20260415_100300/run_005/num_cpus_40/noperf_logs/q22_noperf_output.log
+      === 查询 Q22 noperf测试结束: 2026-04-15 10:26:19 ===
+      运行时长: 9秒
+      退出码: 0
+    == noperf 版本查询完成 ==
+  === 配置: num_cpus_40 完成 ===
+=== 第 5/5 轮运行完成: Wed Apr 15 10:26:19 AM CST 2026 ===
